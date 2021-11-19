@@ -1,0 +1,18 @@
+{
+  "name": "projet-robert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch sass/main.scss css/styles.css --style compressed",
+    "prod": "postcss css/styles.css --use autoprefixer -o css/all.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {}
+}
