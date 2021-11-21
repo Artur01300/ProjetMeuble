@@ -1,8 +1,15 @@
+// liens de navbar
+@media (max-width: 600px){
 
-@media screen and (max-width: 1000px) {
-    .headerMain {
-        width: 60%;
-        float: none;
-        margin: auto;
+.navbar-nav {
+        flex-direction: row !important;
+    }
+    .navbar-nav .nav-item{
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+
+    .navbar-nav>.active>a{
+        padding: 8px;
     }
 }
