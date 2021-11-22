@@ -40,8 +40,77 @@
 }
 
 // section
+.bgvideo{
+    position: relative;
+}
 
+//contenue h2
+.contenusSurVideo{
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+}
 
+.contenusSurVideo h1{
+    font-size: max(2vw, 50px);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.contenusSurVideo h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contenusSurVideo h4{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+a.contenusSurVideo_btn.btn_colerWhite{
+    color: white;
+    border: 1px solid #fff;
+    font-size: max(2vw, 25px);
+    background: rgba(255, 255, 255, .25);
+    padding: 5px 25px;
+    text-decoration: none;
+}
+
+a.contenusSurVideo_btn.btn_colerWhite:hover{
+    background: rgba(233, 88, 80, .25);
+    border: 1px solid rgba(233, 88, 80, .75);
+}
+
+//jumbotron
+
+.jumbotron{
+    background: #182329;
+    margin-top: -0.5px;
+    padding: 1em;
+}
+
+.jumbotronAccroche{
+    margin-top: 18px;
+    font-size: 30px;
+    color: white;
+}
+
+//cataloge
+.catalog1{
+    margin-bottom: 20px;
+}
+
+.catalog2{
+    margin-top: 40px;
+}
+
+// .test img{
+//     width: 150px;
+//     height: 150px;
+//     border-radius: 70px;
+// }
 
 
 // video { 
