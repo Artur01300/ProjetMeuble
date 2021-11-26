@@ -11,50 +11,51 @@
 </head>
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-light header-top" role="navigation">
-            <div id="navbarText">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">ԿԱՀՈՒՅՔՆԵՐ<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ԿԱՊ</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+  <nav class="navbar navbar-expand-sm navbar-light header-top" role="navigation">
+    <div id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ԿԱՀՈՒՅՔՆԵՐ<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">ԿԱՊ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <section class="sectionTop">
+    <header class="sectionTop">
       <div class="container-fluid bgvideo">
         <div class="row">
-          <div class="embed-responsive embed-responsive-16by9">
+          
+          <div class="embed-responsive embed-responsive-16by9 d-none d-sm-block">
             <video playsinline autoplay muted loop>
-              <source src="video/V_mp4.mp4" type="video/mp4"> -->
-              <source src="video/V_webm.webm" type="video/webm">
-              <source src="video/V_ogg.ogg" type="video/ogg">
+              <source src="VIDEO_BG/V_mp4.mp4" type="video/mp4">
+              <source src="VIDEO_BG/V_webm.webm" type="video/webm">
+              <source src="VIDEO_BG/V_ogg.ogg" type="video/ogg">
             </video>
           </div>
 
-          <div class="contenusSurVideo text-center d-none d-sm-block">
+          <!-- Mobile -->
+          <div class="embed-responsive embed-responsive-16by9 d-block d-sm-none">
+            <video playsinline autoplay muted loop>
+              <source src="VIDEO_BG/V_M_mp4.mp4" type="video/mp4">
+              <source src="VIDEO_BG/V_M_webm.webm" type="video/webm">
+              <source src="VIDEO_BG/V_ogg.ogg" type="video/ogg">
+            </video>
+          </div>
+
+          <!-- <div class="contenusSurVideo text-center d-none d-sm-block"> -->
+            <div class="contenusSurVideo text-center">
             <h1>Ա ր մ դ է կ ո ր</h1>
-            <h3>Si vous êtes l’organisateur de la réunion, connectez-vous pour lancer la réunion</h3>
-            <h4>vous êtes l’organisateur de la réunion, connectez-vous pour lancer la r</h4>
-            <a href="#" class="contenusSurVideo_btn btn_colerWhite">Catloge</a>
+            <p>
+              Այստեղ տեղադրված են մեր նորավոչ կահույքները, որոնք կարող էք ընտրել ձեր տան կամ գրասենյակի համար:
+            </p>
+            <a href="#" class="btn-ContainVideo btn-ContainVideo-coler">Կատալոգ</a>
           </div>
         </div>
       </div>
-    </section>
-
-    <div class="jumbotron jumbotron-fluid text-center">
-      <div class="containter">
-        <p class="jumbotronAccroche">
-          It uses utility classes for typography and spacing to space content out within the larger container.
-          <a href="#" class="btn btn-danger btn-lg" role="">Non Produit</a>
-        </p>
-      </div>
-    </div>
+    </header>
 
 <!-- *****************************  Contenue ******************************* -->
 

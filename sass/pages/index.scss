@@ -7,6 +7,10 @@
 }
 
 // liens de navbar
+
+.navbar{
+    z-index: 1;
+}
 .navbar-nav > li > a{
     color: #102025 !important;
     font-size: 18px;
@@ -29,36 +33,54 @@
 }
 
 // section
-.bgvideo{
-    position: relative;
+
+.sectionTop{
+    height: 95vh;
 }
 
-//contenue h2
+.header-containter{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+.bgvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+// video{
+//     width: 112%;
+// }
+
+//contenue h1
 .contenusSurVideo{
     position: absolute;
     color: white;
-    width: 100%;
-    margin-top: 50px;
+    top: 50px;
+    right: 20px;
+    margin-top: 150px;
 }
 
 .contenusSurVideo h1{
     font-size: max(2vw, 50px);
-    text-transform: uppercase;
     font-weight: 700;
 }
 
-.contenusSurVideo h3{
-    font-size: 20px;
-    font-weight: 300;
-}
 
-.contenusSurVideo h4{
-    font-size: 16px;
-    font-weight: 300;
+.contenusSurVideo p{
+    font-size: max(1vw, 16px);
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
-a.contenusSurVideo_btn.btn_colerWhite{
+
+a.btn-ContainVideo.btn-ContainVideo-coler{
     color: white;
     border: 1px solid #fff;
     font-size: max(2vw, 25px);
@@ -67,7 +89,7 @@ a.contenusSurVideo_btn.btn_colerWhite{
     text-decoration: none;
 }
 
-a.contenusSurVideo_btn.btn_colerWhite:hover{
+a.btn-ContainVideo.btn-ContainVideo-coler:hover{
     background: rgba(233, 88, 80, .25);
     border: 1px solid rgba(233, 88, 80, .75);
 }
