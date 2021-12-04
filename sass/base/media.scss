@@ -45,17 +45,25 @@
         padding: 8px;
     }
 
-    // header
-    .embed-responsive{
-        position: static;
-    }
-    
-    .embed-responsive video{
-        height: 120vh;
-        width: 129%;
-    }
 
+.headerMain{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background:  url('/img/bgMobil-img.jpg') no-repeat center center/cover;
+}
+     
     .catalogContainer{
-        margin-top: 63vh;
+        margin-top: 95vh;
     }
 }
+
+// @media only screen and (min-width: 320px) and (max: 415px){
+//     .embed-responsive video{
+//         height: 120vh;
+//         width: 100%;
+//     }
+// }
