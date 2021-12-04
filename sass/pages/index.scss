@@ -34,8 +34,8 @@
 
 // section
 
-.sectionTop{
-    height: 95vh;
+.headerMain{
+    height: 46vw;
 }
 
 .header-containter{
@@ -45,7 +45,7 @@
     margin: auto;
     text-align: center;
 }
-.bgvideo{
+.headerMain_bgvideo{
     position: absolute;
     top: 0;
     left: 0;
@@ -54,34 +54,34 @@
     overflow: hidden;
 }
 
-// video{
-//     width: 112%;
-// }
-
 //contenue h1
-.contenusSurVideo{
+.headerMain_content{
     position: absolute;
     color: white;
     top: 50px;
     right: 20px;
     margin-top: 150px;
+    width: 40%;
 }
 
-.contenusSurVideo h1{
+.headerMain_content h1{
     font-size: max(2vw, 50px);
     font-weight: 700;
+    font-family: 'font_h1_header';
 }
 
 
-.contenusSurVideo p{
+.headerMain_content p{
     font-size: max(1vw, 16px);
     font-weight: 400;
     margin-bottom: 20px;
+    font-family: "font_all";
 }
 
 
 a.btn-ContainVideo.btn-ContainVideo-coler{
     color: white;
+    font-family: "font_all";
     border: 1px solid #fff;
     font-size: max(2vw, 25px);
     background: rgba(255, 255, 255, .25);
