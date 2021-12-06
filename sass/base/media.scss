@@ -1,70 +1,77 @@
-// header
-@media(max-width: 1900px){
-    .headerMain{
-        height: 51vw;
-    }
-}
-@media (max-width: 1024px){
+// // header
+// // @media(max-width: 1900px){
+// //     .headerMain{
+// //         height: 51vw;
+// //     }
+// // }
+// @media (max-width: 1024px){
 
-    .headerMain_content{
-        right: 20px;
-        margin-top: 100px;
-        width: 40%;
-    }
-
-    .headerMain_content h1{
-        font-size: max(2vw, 30px);
-        font-weight: 700;
-    }
-    
-    .headerMain_content p{
-        font-size: max(1vw, 16px);
-    }
-
-    a.btn-ContainVideo.btn-ContainVideo-coler{
-        font-size: max(2vw, 12px);
-        color: #e9585e;
-    }
-    a.btn-ContainVideo.btn-ContainVideo-coler:hover{
-        color: white;
-    }      
-}
-
-// liens de navbar et header
-@media (max-width: 576px){
-
-.navbar-nav {
-        flex-direction: row !important;
-    }
-    .navbar-nav .nav-item{
-        padding-right: 0.5rem !important;
-        padding-left: 0.5rem !important;
-    }
-
-    .navbar-nav>.active>a{
-        padding: 8px;
-    }
-
-
-.headerMain{
-    position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: url('../img/bgM_Img.jpg') no-repeat center center/cover;
-
-}
-     
-    .catalogContainer{
-        margin-top: 95vh;
-    }
-}
-
-// @media only screen and (min-width: 320px) and (max: 415px){
-//     .embed-responsive video{
-//         height: 120vh;
-//         width: 100%;
+//     .headerMain_content{
+//         right: 2rem;
+//         // margin-top: 100px;
+//         width: 15rem;
 //     }
+
+//     .headerMain_content h1{
+//         font-size: max(2vw, 30px);
+//         font-weight: 700;
+//     }
+    
+//     .headerMain_content p{
+//         font-size: max(1vw, 16px);
+//     }
+
+//     a.btn-ContainVideo.btn-ContainVideo-coler{
+//         font-size: max(2vw, 12px);
+//         color: #e9585e;
+//     }
+//     a.btn-ContainVideo.btn-ContainVideo-coler:hover{
+//         color: white;
+//     }      
+// }
+
+// // liens de navbar et header
+// @media (max-width: 576px){
+
+//     .navbar-nav {
+//         flex-direction: row !important;
+//     }
+//     .navbar-nav .nav-item{
+//         padding-right: 0.5rem !important;
+//         padding-left: 0.5rem !important;
+//     }
+
+//     .navbar-nav>.active>a{
+//         padding: 8px;
+//     }
+
+
+//     .headerMain{
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         overflow: hidden;
+//         background: url('../img/bgM_Img.jpg') no-repeat center center/cover;
+
+//     }
+
+//     .headerMain_content h1{
+//         margin-bottom: 2rem;
+//     }
+
+
+//     .headerMain_content p{
+//         margin-bottom: 12rem;
+//     }
+
+//     .btn-ContainVideo{
+//         margin-left: 2.5rem;
+//     }
+     
+//     .catalogContainer{
+//         margin-top: 95vh;
+//     }
+
 // }
