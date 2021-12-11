@@ -4,15 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sass --watch sass/main.scss css/styles.css --style compressed",
-    "prod": "postcss css/styles.css --use autoprefixer -o css/all.css"
+    "dev": "sass sass/main.scss css/styles.css --watch --style compressed",
+    "prod": "postcss css/styles.css --use autoprefixer -d css/prefixer/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artur01300/ProjetMeuble.git"
+  },
+  "browserslist": "last 4 versions",
   "author": "",
   "license": "ISC",
-  "browserslist": "last 4 versions",
-  "dependencies": {
-    "autoprefixer": "^10.4.0",
-    "sass": "^1.43.4"
+  "bugs": {
+    "url": "https://github.com/Artur01300/ProjetMeuble/issues"
   },
-  "devDependencies": {}
+  "homepage": "https://github.com/Artur01300/ProjetMeuble#readme",
+  "dependencies": {
+    "sass": "^1.45.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.12",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2"
+  }
 }
