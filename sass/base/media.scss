@@ -19,8 +19,10 @@
     }
 
     .headerMain_bgvideo{
-        background: url('/img/bg_mobil.jpg') no-repeat center
-        center/cover !important;
+        // avec prefixer
+        // background: url('../../img/bg_mobil.jpg') no-repeat center center/cover !important;
+           // sans prefixer
+           background: url('../img/bg_mobil.jpg') no-repeat center center/cover !important;
     }
 
     .catalogContainer{
