@@ -17,23 +17,32 @@
             }
         }
     }
+
+    .headerMain_bgvideo{
+        background: url('/img/bg_mobil.jpg') no-repeat center
+        center/cover !important;
+    }
+
+    .catalogContainer{
+        padding: 4rem 0rem 1rem 0rem;
+    }
 }
 
 //Catalogue
-@media (max-width: 1200px){
-    .catalogContainer{
-        padding: 3rem 0rem 1rem 0rem;
-    }
-}
-@media (max-width: 995px){
-    .catalogContainer{
-        padding: 3rem 0rem 0rem 0rem;
-    }
-}
+// @media (max-width: 1200px){
+//     .catalogContainer{
+//         padding: 3rem 0rem 1rem 0rem;
+//     }
+// }
+// @media (max-width: 995px){
+//     .catalogContainer{
+//         padding: 3rem 0rem 0rem 0rem;
+//     }
+// }
 
 @media (max-width: 990px){
     .catalogContainer{
-        padding: 3rem 0rem 0rem 0rem;
+        padding: 3rem 0rem 2rem 0rem;
     }
     .catalog1{
         margin-bottom: 2rem;
@@ -42,18 +51,8 @@
         margin-bottom: 2rem;
     }
 }
-@media (max-width: 768px){
-    .catalogContainer{
-        padding: 1.5rem 0rem 1rem 0rem;
-    }
-}
-
-// @media (max-width: 350px){
+// @media (max-width: 768px){
 //     .catalogContainer{
-        
-//         padding: 30px 0rem 1rem 0rem;
+//         padding: 1.5rem 0rem 1rem 0rem;
 //     }
 // }
-
-
-
