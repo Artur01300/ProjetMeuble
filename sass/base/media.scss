@@ -1,9 +1,20 @@
+// @media (max-width: 990px){
+//     .catalogContainer{
+//         padding: 3rem 0rem 2rem 0rem;
+//     }
+//     .catalog1{
+//         margin-bottom: 2rem;
+//     }
+//     .catalog2{
+//         margin-bottom: 2rem;
+//     }
+// }
 
 // // liens de navbar et header
 @media (max-width: 576px){
 
     .navbarMain{
-        padding: 1rem 0rem 1rem 1rem;
+        padding: 2rem 0rem 1rem 1rem;
 
         .navbar-nav{
             flex-direction: row;
@@ -26,35 +37,6 @@
     }
 
     .catalogContainer{
-        padding: 4rem 0rem 1rem 0rem;
+        padding: 2rem 0rem 0rem 0rem;
     }
 }
-
-//Catalogue
-// @media (max-width: 1200px){
-//     .catalogContainer{
-//         padding: 3rem 0rem 1rem 0rem;
-//     }
-// }
-// @media (max-width: 995px){
-//     .catalogContainer{
-//         padding: 3rem 0rem 0rem 0rem;
-//     }
-// }
-
-@media (max-width: 990px){
-    .catalogContainer{
-        padding: 3rem 0rem 2rem 0rem;
-    }
-    .catalog1{
-        margin-bottom: 2rem;
-    }
-    .catalog2{
-        margin-bottom: 2rem;
-    }
-}
-// @media (max-width: 768px){
-//     .catalogContainer{
-//         padding: 1.5rem 0rem 1rem 0rem;
-//     }
-// }
