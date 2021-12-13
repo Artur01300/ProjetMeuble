@@ -1,0 +1,26 @@
+.category1 h2, .category2 h2{
+    font-size: max(1vw, 12px);
+    color: rgba(233,88,80,1);
+    font-family: "font_all";
+    font-weight: 600;
+
+}
+.category1{
+    margin-bottom: 2rem;
+}
+
+.category1 img, .category2 img{
+    border-radius: 10rem;
+    border: 2px solid #fff;
+    max-width: 100px;
+}
+
+.category1 img:hover, .category2 img:hover{
+    border: 2px solid #182329;
+}
+
+.category1:hover .card-title, .category2:hover .card-title{
+    background-color: #182329;
+    color: white;
+    padding: .5rem;
+}

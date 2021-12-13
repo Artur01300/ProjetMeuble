@@ -30,7 +30,19 @@
         border: 1px solid rgba(233, 88, 80, .75) !important;
     }
 
-    .catalogContainer{
+    .categoryContainer{
         padding: 0rem 0rem 0rem 0rem;
     }
+}
+
+// ------------------------------ Categorys -------------------------
+@media(max-width: 768px){
+    .categoryContainer{
+        padding: 3rem 0rem 4rem 0rem;
+    }
+
+    .category2_down{
+    padding-top: 2rem;
+}
+
 }
