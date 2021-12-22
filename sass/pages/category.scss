@@ -1,6 +1,10 @@
+#category{
+    max-width: 80%;
+}
+
 .category1 h2, .category2 h2{
     font-size: max(1vw, 12px);
-    color: rgba(233,88,80,1);
+    color:  #182329;
     font-family: "font_all";
     font-weight: 600;
 
@@ -10,17 +14,20 @@
 }
 
 .category1 img, .category2 img{
-    border-radius: 10rem;
+    border-radius: 1rem;
     border: 2px solid #fff;
-    max-width: 150px;
+    max-width: 350px;
+    max-height: 200px;
 }
 
-.category1 img:hover, .category2 img:hover{
-    border: 4px solid #182329;
-}
+// .category1 img:hover, .category2 img:hover{
+//     border: 4px solid #182329;
+// }
 
 .category1:hover .card-title, .category2:hover .card-title{
     background-color: #182329;
     color: white;
+    // margin: auto;
+    // max-width: 80%;
     padding: .5rem;
 }
