@@ -3,14 +3,26 @@
 }
 
 .category1 h2, .category2 h2{
-    font-size: max(1vw, 12px);
+    font-size: max(1.3vw, 16px);
     color:  #182329;
     font-family: "font_all";
     font-weight: 600;
+    padding: 1rem;
+
 
 }
+
+.category-hover{
+   margin-bottom: 4rem;
+}
 .category1{
-    margin-bottom: 6rem;
+    position: relative;
+    transition: .3s;
+    transition: 450ms all;
+}
+.category-hover{
+    transition: .3s;
+    transition: 450ms all;
 }
 
 .category1 img, .category2 img{
@@ -20,14 +32,47 @@
     max-height: 200px;
 }
 
-// .category1 img:hover, .category2 img:hover{
-//     border: 4px solid #182329;
-// }
 
-.category1:hover .card-title, .category2:hover .card-title{
-    background-color: #182329;
-    color: white;
-    // margin: auto;
-    // max-width: 80%;
-    padding: .5rem;
+.category-hover:hover {
+    transform: scale(1.065);
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-property: all;
+
 }
+
+//Soulignement le titre des categoryes
+.categoryContainer_titleSubline{
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    .titleSublineCustom-underline{
+        position: relative;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        &::after{
+            content: "";
+            position: absolute;
+        }
+    }
+}
+//Animation du soulignement le titre des categoryes
+.categoryContainer_titleSubline .titleSublineCustom-underline::after{
+    bottom: 24%;
+    height: 3px;
+    width: 0%;
+    left: 5%;
+    background-color: #28534a;
+    transition: 0.5s ease all .3s;
+}
+
+.categoryContainer_titleSubline:hover .titleSublineCustom-underline::after{
+    width: 90%;
+    transition: 0.3s ease all;
+}
+
+
