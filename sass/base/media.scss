@@ -36,6 +36,14 @@
 }
 
 // ------------------------------ Categorys -------------------------
+
+@media(max-width: 1024px){
+    .categoryContainer{
+        padding-top: max(0.4rem );
+        padding-bottom: max(0.2rem );
+    }
+}
+
 @media(max-width: 768px){
     .categoryContainer{
        padding-bottom: 2rem;
@@ -43,14 +51,5 @@
     .category-hover{
         margin-bottom: 0rem;
     }
-
-
-    // .category1 {
-    //     margin-bottom: 3.7rem;
-    // }
-
-    // .cardr_buttem{
-    //     margin-bottom: 4rem;
-    // }
 
 }
